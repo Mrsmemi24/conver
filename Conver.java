@@ -18,18 +18,18 @@ public class Conver {
                     System.out.print("Ingresa cantidad en pesos: ");
                     double pesos = scanner.nextDouble();
                     double jeringa = pesos / conversion;
-                    System.out.println("Tienes " + jeringa + " JeringaCoins.");
+                    System.out.println("Son " + jeringa + " JeringaCoins.");
                     break;
 
                 case 2:
                     System.out.print("Ingresa cantidad en JeringaCoins: ");
                     double jeringaCoins = scanner.nextDouble();
                     double pesos2 = jeringaCoins * conversion;
-                    System.out.println("Tienes " + pesos2 + " pesos.");
+                    System.out.println("Son " + pesos2 + " pesos.");
                     break;
 
                 default:
-                    System.out.println("Opcion Teleton.");
+                    System.out.println("Opcion.");
                     break;
             }
 
