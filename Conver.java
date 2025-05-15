@@ -38,6 +38,6 @@ public class Conver {
             respuesta = scanner.nextLine();
         }
 
-        System.out.println("Programa Finalizado, asi como tu relacion.");
+        System.out.println("Se fue");
     }
 }
